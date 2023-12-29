@@ -9,7 +9,7 @@ function createWindow() {
       nodeIntegration: true
     }
   });
-  win.setTitle('Made with 💖 by Kenley. (if you like it spend me: https://www.buymeacoffee.com/kenleydev )')
+  win.setTitle('Made with 💖 by Kenley. (if you like it spend me: https://paypal.me/kenleydev )')
   win.setIcon(path.join(__dirname, 'assets', 'icon.png'));
   win.loadURL('https://24fire.de');
 }
