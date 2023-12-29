@@ -1,4 +1,5 @@
 # 24Fire.de (Desktop App)
+# WARNING! This project is inofficial that means if the 24fire team decides to contact me so i should delete this repo i must do it! Eather me nor the repo is affilated with 24fire!
 ## This is an small project i'm working on for the hosting company: "24fire.de" its an Desktop app to make server administration easier. (Its not official or affilated with 24fire.de)
 
 ## You need:
