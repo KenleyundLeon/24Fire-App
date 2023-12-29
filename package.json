@@ -1,0 +1,41 @@
+{
+  "name": "24fire",
+  "version": "1.0.0",
+  "description": "Die inoffizielle 24fire.de (APP)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "build-exe": "electron-builder --win",
+    "build-apk": "electron-builder --linux apk",
+    "build-deb": "electron-builder --linux deb",
+    "build-snap": "electron-builder --linux snap",
+    "build-pacman": "electron-builder --linux pacman",
+    "build-dmg": "electron-builder --macos dmg",
+    "build-all": "electron-builder -mwl"
+  },
+  "author": {
+    "name": "Kenley M.",
+    "email": "muthkenley6@gmail.com"
+  },
+  "homepage": "https://better-shop.de",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.1.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "win": {
+      "target": "nsis",
+      "icon": "src/assets/icon.png",
+      "sign": null
+    },
+    "linux": {
+      "target": "apk",
+      "category": "AppImage",
+      "icon": "src/assets/icon.png"
+    }
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
