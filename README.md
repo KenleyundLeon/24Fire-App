@@ -15,4 +15,4 @@
 ### 7. Now your App should be ready to use! (It may needs to get installed on your system on a double click!)
 
 ## You want to support my projects?
-### [Buy me a Coffe so i work faster!](https://www.buymeacoffee.com/kenleydev)https://www.buymeacoffee.com/kenleydev
+### [Buy me a Coffe so i work faster!](https://www.buymeacoffee.com/kenleydev)
