@@ -10,7 +10,7 @@
 ### 1. Open an Terminal as Administrator.
 ### 2. Go inside the Project Folder.
 ### 3. type: "npm install"
-### 4. type: "npm run build-win" (For .exe) | "npm run build-deb" (For .deb AMD64 only) | "npm run build-snap" (For .snap AMD64 only)
+### 4. type: "npm run build-exe" (For .exe) | "npm run build-deb" (For .deb AMD64 only) | "npm run build-snap" (For .snap AMD64 only)
 ### 5. Wait until its done.
 ### 6. Go in the new created folder named: dist
 ### 7. Now your App should be ready to use! (It may needs to get installed on your system on a double click!)
